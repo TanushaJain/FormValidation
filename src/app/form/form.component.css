@@ -1,0 +1,52 @@
+.form-group{
+    width: 500px;
+    margin-top: 0;
+    border-radius: 5px;
+}
+.form-control,
+.form-check{
+    margin-top: 20px;
+}
+.form-custom{
+    margin-top:0%;
+}
+.form-custom-1{
+    border: solid 1px lightgray;
+    border-radius: 5px;
+}
+.form-custom-2{
+    height: 100px;
+    padding: 10px;
+    border-radius: 5px;
+}
+button{
+    margin-right: 50px;
+}
+.skills-div{
+    display: flex;
+    flex-wrap: wrap;
+}
+.err{
+    color: red;
+}
+.skills{
+    flex-basis: 33%;
+    margin-bottom: 10px;
+}
+.error-label{
+    color: red;
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;;
+    
+}
+.error{
+    border:solid 2px red;
+    border-radius: 5px;
+}
+
+.form-control.ng-touched.ng-invalid
+{
+    border:solid 2px red;
+    border-radius: 5px;
+}
